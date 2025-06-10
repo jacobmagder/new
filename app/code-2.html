@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASCII Enhanced - Separated</title>
+    <meta name="title" content="Cascii: A web-based ASCII diagram builder - Separated Files">
+    <meta name="description" content="A free, open-source ASCII diagram builder written in vanilla Javascript with export, glow, and separated HTML/CSS/JS.">
+    <meta name="keywords" content="Cascii, CASCII, ASCII, ascii, unicode, diagrams, drawing, export, png, svg, glow">
+    <meta name="author" content="Caspar Wylie & AI Assistant">
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 
+      By design, this can happily 404 and run without a backend.
+      It's for optional server-side features.
+    -->
+    <script src="/static/serverLayer.js" defer></script>
+</head>
+<body>
+    <!-- 
+        The main application interface will be built and injected here by script.js.
+        You could add a "Loading..." message here if desired, which the script would then replace.
+        Example: <div id="loading-message">Loading CASCII...</div> 
+    -->
+
+    <!-- Link to the external JavaScript file -->
+    <!-- 'defer' ensures it executes after the HTML is parsed -->
+    <script src="script.js" defer></script>
+</body>
+</html>
